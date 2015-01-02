@@ -12,6 +12,10 @@ import sys
 if sys.version_info[0] < 3:
     input = raw_input
 
+help_message = ("This is a turn-based game. Choose moves when it's your turn"
+                " - a, b, or c. First one to bring their opponent's health"
+                " to zero wins!")
+
 user_health = 100
 opponent_health = 100
 user_turn = True
